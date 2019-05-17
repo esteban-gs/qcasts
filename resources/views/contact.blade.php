@@ -1,4 +1,8 @@
-<h1>Contact Us</h1>
+@extends('layout')
 
-<p>company name</p>
-<p>123-123-1234</p>
+@section('content')
+    <h1>Contact Us</h1>
+
+    <p>company name</p>
+    <p>123-123-1234</p>
+@endsection

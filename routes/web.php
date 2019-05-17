@@ -13,6 +13,7 @@
 
 Route::view('/', 'welcome');
 Route::view('contact', 'contact');
+Route::view('/', 'home');
 Route::view('about', 'about');
 
 Route::get('customers', 'CustomersController@list');
