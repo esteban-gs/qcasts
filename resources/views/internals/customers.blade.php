@@ -22,8 +22,7 @@
         @endforeach
     </ul>
 @endsection
-
-this is a commit
+    
 
 
 

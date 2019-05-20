@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/internals/customers.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="432">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -260,12 +260,12 @@
       <workItem from="1558054112408" duration="330000" />
       <workItem from="1558074373016" duration="1973000" />
       <workItem from="1558325276659" duration="362000" />
-      <workItem from="1558325961168" duration="4796000" />
+      <workItem from="1558325961168" duration="4881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7461000" />
+    <option name="totallyTimeSpent" value="7546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="880" height="1203" extended-state="0" />
@@ -386,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/internals/customers.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="432">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
