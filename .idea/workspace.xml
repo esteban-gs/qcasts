@@ -153,7 +153,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/log" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-13" />
     <option name="width" value="1654" />
     <option name="height" value="2104" />
