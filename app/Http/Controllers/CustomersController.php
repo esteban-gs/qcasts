@@ -36,11 +36,10 @@ class CustomersController extends Controller
         return redirect('/customers');
     }
 
-    public function show($customer)
+    public function show(Customer $customer)
     {
-        $customer = Customer::find($customer);
-
-
+        //route-model binding replaces code below
+        //$customer = Customer::where('id', $customer)->firstOrFail();
 
         return view('customers.show', compact('customer'));
         //dd($customer);
