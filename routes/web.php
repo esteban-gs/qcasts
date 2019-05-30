@@ -11,9 +11,9 @@
 |
 */
 
-Route::view('/', 'welcome');
-Route::view('contact', 'contact');
 Route::view('/', 'home');
+Route::get('contact', 'ContactFormController@create');
+Route::post('contact', 'ContactFormController@store');
 Route::view('about', 'about');
 
 //Standard for resource controller
