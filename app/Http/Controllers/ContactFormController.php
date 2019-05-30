@@ -25,7 +25,7 @@ class ContactFormController extends Controller
         //dd(request()->all());
 
         //send email
-        Mail::to('info@tegs.tech')->send(new ContactFormMail($data));
+        Mail::to('comsat61@gmail.com')->send(new ContactFormMail($data));
 
         return redirect('contact');
     }
