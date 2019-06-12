@@ -12,9 +12,9 @@
 */
 
 Route::view('/', 'home');
-Route::get('contact', 'ContactFormController@create');
-Route::post('contact', 'ContactFormController@store');
-Route::view('about', 'about')->middleware('test');
+Route::get('contact', 'ContactFormController@create')->name('contact.create');
+Route::post('contact', 'ContactFormController@store')->name('contact.store');
+Route::view('about', 'about')->middleware('test')->name('about');
 
 //Standard for resource controller
 Route::resource('customers', 'CustomersController');

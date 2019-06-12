@@ -8,7 +8,7 @@
             <h1>Details for {{ $customer->name }}</h1>
             <p><a href="/customers/{{ $customer->id }}/edit">Edit</a></p>
 
-            <form action="/customers/{{ $customer->id }}" method="POST">
+            <form action="{{ route('customers.update', ['customer' => $customer])}} " method="POST">
                 @method('DELETE')
 
                 @csrf

@@ -6,16 +6,16 @@
     <h1>Contact Us</h1>
 
     @if(! session('message'))
-        <form action="/contact" method="POST">
+        <form action=" {{ route('contact.store') }}" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" name="name" value="{{ old('name') }}"class="form-control">
+                <input type="text" name="name" value="{{ old('name') }}" class="form-control">
                 <div>{{ $errors->first('name') }}</div>
             </div>
 
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="text" name="email" value="{{ old('email') }}"class="form-control">
+                <input type="text" name="email" value="{{ old('email') }}" class="form-control">
                 <div>{{ $errors->first('email') }}</div>
             </div>
 

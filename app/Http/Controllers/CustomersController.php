@@ -56,7 +56,7 @@ class CustomersController extends Controller
     {
         $customer->update($this->validateRequest());
 
-        return redirect('customers/' . $customer->id);
+        redirect('customers/' . $customer->id);
     }
 
     public function destroy(Customer $customer)
