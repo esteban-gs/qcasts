@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Customer;
 use App\Company;
+use App\Mail\WelcomeNewUserMail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 
 class CustomersController extends Controller
@@ -31,9 +33,17 @@ class CustomersController extends Controller
 
     public function store()
     {
-        Customer::create($this->validateRequest());
+        $customer = Customer::create($this->validateRequest());
 
-        return redirect('/customers');
+        Mail::to($customer->email)->send(new WelcomeNewUserMail());
+
+        //Register to newsletter
+        dump('Registered to newsleter');
+
+        //Slack message to Admin
+        dump('Slack Message Here');
+
+        //return redirect('customers');
     }
 
     public function show(Customer $customer)
