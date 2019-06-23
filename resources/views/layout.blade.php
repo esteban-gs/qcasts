@@ -24,7 +24,6 @@
         </div>
     @endif
 
-
     @yield('content')
 
 </div>
